@@ -1,0 +1,51 @@
+﻿生成启动时间为 2025/2/1 23:12:25。
+     1>项目“D:\project\test\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>项目“D:\project\test\test\test.vcxproj”(1)正在节点 2 上生成“D:\project\test\test\test.vcxproj”(1:2) (Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Debug\uic /Ix64\Debug\moc /ID:\Qt\Qt5.12.0\5.12.0\msvc2015_64\include /ID:\Qt\Qt5.12.0\5.12.0\msvc2015_64\include\QtWidgets /ID:\Qt\Qt5.12.0\5.12.0\msvc2015_64\include\QtGui /ID:\Qt\Qt5.12.0\5.12.0\msvc2015_64\include\QtANGLE /ID:\Qt\Qt5.12.0\5.12.0\msvc2015_64\include\QtCore /I\include /I"D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\mkspecs\win32-msvc" /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt test.cpp
+         test.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\test\x64\Debug\test.exe" /VERBOSE /NOLOGO /LIBPATH:D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.6.11-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib\Qt5Guid.lib D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib\Qt5Cored.lib D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\project\test\x64\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\test\x64\Debug\test.lib" /MACHINE:X64 x64\Debug\test.obj
+         x64\Debug\main.obj
+         x64\Debug\qrc_test.obj
+         x64\Debug\moc_test.obj
+         
+         正在搜索库
+             正在搜索 D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib\Qt5Widgetsd.lib:
+             正在搜索 D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib\Qt5Guid.lib:
+             正在搜索 D:\Qt\Qt5.12.0\5.12.0\msvc2015_64\lib\Qt5Cored.lib:
+               已找到 "__declspec(dllimport) public: static class QString __cdecl QString::fromLocal8Bit(char const *,int)" (__imp_?fromLocal8Bit@QString@@SA?AV1@PEBDH@Z)
+                 已在 test.obj 中引用
+                 已加载 Qt5Cored.lib(Qt5Cored.dll)
+         
+         已完成库搜索
+         正在启动传递 2
+              test.obj
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              Qt5Cored.lib(Qt5Cored.dll)
+              MSVCRTD.lib(loadcfg.obj)
+         已完成传递 2
+         test.vcxproj -> D:\project\test\x64\Debug\test.exe
+     1>已完成生成项目“D:\project\test\test\test.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\project\test\test\test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.70
